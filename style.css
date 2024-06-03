@@ -1,0 +1,147 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden; 
+    overflow-y: auto; 
+      
+}
+.main-container {
+    width: 100%; 
+}
+.custom-underline {
+    text-decoration: underline;
+    text-decoration-color: rgb(255, 225, 0);
+    text-underline-offset: 0.2em;
+}
+.pas{
+    color: blue;
+    font-family: "Reddit Mono", monospace;
+}
+body {
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    background: linear-gradient(to right, #0066cc, #33ccff);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand img {
+    height: 80px;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+    font-size: 0.9rem;
+    font-weight: 600;
+    padding-left: 2px;
+    padding-right: 20px;
+    transition: all 0.3s;
+    
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffcc00 !important;
+    text-decoration: underline;
+}
+
+.dropdown-menu {
+    background-color: #0066cc;
+}
+
+.dropdown-menu .dropdown-item {
+    color: white !important;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: #33ccff;
+    color: #ffcc00 !important;
+}
+
+.navbar .nav-item .fa-phone {
+    margin-right: 5px;
+}
+
+.navbar .nav-item.ms-5 .nav-link {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.main-container {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+body {
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    font-family: 'Poppins', sans-serif;
+}
+
+.custom-underline::after {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 3px;
+    background-color: #007bff;
+    margin: 5px auto 0;
+}
+.navbar {
+    background-color: #ffffff;
+}
+
+.card-title {
+    color: #ff5a5f;
+}
+
+.btn-outline-primary {
+    border-color: #ff5a5f;
+    color: #ff5a5f;
+}
+
+.btn-outline-primary:hover {
+    background-color: #ff5a5f;
+    color: #ffffff;
+}
+
+.carousel-item img {
+    height: 500px;
+    object-fit: cover;
+}
+
+.main-container {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+.testimonial-card {
+    background-color: #f8f9fa;
+    border: none;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.testimonial-card h5 {
+    color: #495057;
+}
+
+.testimonial-card p {
+    color: #6c757d;
+}
+
+.testimonial-card img {
+    border-radius: 50%;
+}
+
+.parent-card {
+    background-color: #e9ecef;
+    border-radius: 15px;
+    padding: 20px;
+}
+.rounded-images {
+    border-radius: 50%; 
+}
+
